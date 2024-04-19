@@ -10,7 +10,7 @@ Config = {}
 Config.Target = "ox" -- "ox" or "qb"
 Config.Notify = "ox" -- "ox" or "qb"
 Config.Radial = "ox" -- "ox" or "qb"
-Config.Inventory = "qb" -- "ox" or "qb"
+Config.Inventory = "ox" -- "ox" or "qb"
 Config.Logs = "qb" -- "qb"
 
 -- Anyone provided with keys to a property has the ability to modify its furnishings.
@@ -29,7 +29,7 @@ end
 Config.EnableLogs = true
 
 -- Enables Dynamic Doors
-Config.DynamicDoors = false
+Config.DynamicDoors = true
 
 Config.PoliceJobNames = {  -- add multiple police jobs that are allowed to raid properties!
     "police",
